@@ -1,3 +1,8 @@
-# Hello, Eleventy and Vite!
+---
+layout: layouts/base.njk
+title: Home Page
+---
 
-This is a sample site using Eleventy with Vite for modern build tooling.
+# Welcome to My Eleventy Site
+
+This is the home page.
