@@ -18,8 +18,8 @@ if (!fs.existsSync(baseDir)) {
   fs.mkdirSync(baseDir, { recursive: true });
 }
 
-// Generate 15800 posts
-for (let i = 1; i <= 15800; i++) {
+// Generate 14800 posts
+for (let i = 1; i <= 14800; i++) {
   const filename = `post-${i}.md`;
   const filePath = path.join(baseDir, filename);
   const fileContent = content.replace('{{ id }}', i);
